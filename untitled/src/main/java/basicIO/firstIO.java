@@ -30,6 +30,13 @@ public class firstIO {
     private FileOutputStream fileos;
     private PipedOutputStream pos;
 
+    //file
+    private RandomAccessFile raf;
+
+    private boolean tryByteArrayInputStream(){
+//        bais = new ByteArrayInputStream();
+        return true;
+    }
 
     /**
      *

@@ -33,6 +33,7 @@ public class basicFile {
         @Override
         public boolean accept(File dir, String name) {
             String f = new File(name).getName();
+            System.out.println("scanning: "+ name);
             return f.indexOf(afn)!=-1;
         }
     }
